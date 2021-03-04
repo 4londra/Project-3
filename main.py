@@ -7,8 +7,9 @@ def processFile():
   data = file.read()
   year1 = data.count("1994")
   year2 = data.count("1995")
-  print("Data was accessed ", year1, " times in 1994.")
-  print("Data was accessed ", year1 + year2, " times in 1994 and 1995.")
+  print("Data was accessed ", year1, " times in 1994.") ## This statment will print mumber of times data on year one (1994).
+  print("Data was accessed ", year1 + year2, " times in 1994 and 1995.") ## This statment will print mumber of times data
+                                                                          ## was acccesses on year 1994 and 1995.
 
 path= "./http_access_log"
 exists = os.path.exists(path)
